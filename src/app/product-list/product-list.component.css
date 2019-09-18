@@ -1,0 +1,26 @@
+:root{
+    --fuentePrincipal: 'Staatliches', cursive;
+}
+h2{
+    text-align: center;
+}
+.lista{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.boton{
+    background-color: aqua;
+    font-size: 1rem;
+    border: none;
+    padding: 1rem;
+}
+.producto{
+    text-align: center;
+}
+.contenedor{
+    max-width: 1000px;
+    width: 95%;
+    margin: 0 auto;
+}

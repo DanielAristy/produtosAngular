@@ -1,0 +1,7 @@
+.header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: aquamarine;
+    text-align: center;
+    padding: 1.5rem 0;
+}

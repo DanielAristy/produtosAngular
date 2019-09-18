@@ -122,8 +122,17 @@
               "devServerTarget": "app-lui:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/app-lui",
+            "netlifyToken": "",
+            "siteId": "ng deploy"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "app-lui"
 }
